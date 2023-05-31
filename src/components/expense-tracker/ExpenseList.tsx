@@ -14,7 +14,7 @@ function ExpenseList({ expenses, onDelete }: Props) {
   if (expenses.length === 0) return null;
   return (
     <>
-      <table className=" table  table-bordered table-striped table-hover w-50 position-absolute top-50 start-50 translate-middle">
+      <table className=" table table-bordered table-striped table-hover w-100 ">
         <thead className="table-primary">
           <tr>
             <th>Description</th>
